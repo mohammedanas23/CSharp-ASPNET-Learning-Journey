@@ -107,7 +107,7 @@ now i just have to execute it and i the answer '30'
 ---
 ---
 
-### DAY 2 / 07-06-2026
+### DAY 2 
 
 namespace Projectpractice
 {
@@ -283,4 +283,130 @@ namespace Projectpractice
 }
 
 # This is the class i made and i you might me thinking that why did i made a different class when i could do that in the main program, but thats not it... the program on the above is just for me to practice and check if the code build solution is good or has an error in it, but you might also get a question that how did i manage to execute the code if i did this in another window, i used the internal function in this program so that i can access and check and execute the program of the practice file.
- 
+
+----
+
+
+----
+
+### Variables 
+### Constant 
+### Literals 
+
+# Variable 
+
+Variable used to contain the data that can be changed dynamically.
+Variable are reepredented by data types and identifiers 
+
+# EXAMPLE:
+
+namespace Projectpractice 
+{
+    internal class Program 
+    {
+        static void Main(string[] args)
+        {
+            int age = 20;
+
+            Console.WriteLine(age);
+
+            age = 25; // variable changed 
+
+            Console.WriteLine(age);
+        }
+    }
+}
+
+Here in this example we wrote '''int age = 20'''... then changed it to '25' that the value change hence the uotput is 20 and 25
+
+# Constant 
+
+Constant is the value that cannot be changed after it is assigned. 
+
+# Literals 
+
+Literals is the actual value that is written directly in the code 
+
+example: 
+            10        // Integer literal 
+            3.14      // Double literal 
+            "Hello"   // String Literal 
+            True      // Boolean literal
+
+like if we compare the three of these combined we can get a rough idea that how can they be used, for that i am going to make a table 
+
+-------------------------------------------------------------------------------------------------------------------
+
+         Features               Variable                Constant              Literal 
+
+         Has a name                Yes                      Yes                  No
+
+         Stores data               Yes                      Yes                 Represent the values itself 
+
+         Can change                Yes                      No                  Fixed value 
+
+--------------------------------------------------------------------------------------------------------------------
+
+# What are Datatypes in C# ?
+
+A data type tells C# what kind of data a variable can store and how much memory it needs. there is a table for it as well 
+
+--------------------------------------------------------------------------------------------------------------------
+
+        Datatype                            Stores                                                Examples
+        
+        int                             whole numbers                                          int age = 25;
+
+        Double                          Decimal numbers                                     double price = 99.99;
+
+        Float                      Decimal numbers(less precise)                            float weight = 72.5f;
+
+        char                            Single character                                      char grade = 'A';
+
+        string                              Text                                             string name = "Anas";
+
+        bool                           True / False values                                   bool inStudent = true;
+
+-----------------------------------------------------------------------------------------------------------------------
+
+in this chart 'doubles' datatype and 'float' data type are different because they both give out values in decimals but the precision is less in 'float' data type 
+
+# EXAMPLE: 
+            int age = 25;
+
+            double height = 5.10;
+
+            char grade = 'A';
+
+            string name = "Anas";
+
+            bool inStudent = true;
+
+
+### What is an Identifier ?
+
+An Identifier is simple the name you give to a variable, methods, class, or other program elements
+
+for example:
+            int age = 25;
+
+Here the 'age' is the identifier because you need some sort of name or a string or a character that is easily identified 
+
+like 
+        string name = "Anas"
+
+This type of naming gives a unique identity. If the name is given like this 
+
+            int 1age;
+                                                                            
+            int first-name;
+
+            int class;
+
+These types of identifiers is invalid and will give you an error.
+
+---
+
+
+---
+
