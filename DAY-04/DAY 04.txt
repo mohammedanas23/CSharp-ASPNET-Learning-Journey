@@ -1,0 +1,346 @@
+## Variables
+
+### Type Casting
+
+                        using System.Formats.Asn1;
+
+                        namespace Projectpractice
+                        {
+                            internal class Program
+                            {
+                            
+                                
+                                static void Main(string[] args)
+                                {
+                                    double a = 3.14;
+                                    int b = Convert.ToInt32(a);
+
+                                    int c = 123;
+                                    double d = Convert.ToDouble(c) + 0.1;
+
+                                    int e = 321;
+                                    string f = Convert.ToString(e);
+
+                                    string g = "$";
+                                    char h = Convert.ToChar(g);
+
+                                    string i = "true";
+                                    bool j = Convert.ToBoolean(i);
+
+                                    Console.WriteLine(b);
+                                    Console.WriteLine(d);
+                                    Console.WriteLine(f);
+                                    Console.WriteLine(g);
+                                    Console.WriteLine(h);
+                                    Console.WriteLine(j);
+
+                                    Console.WriteLine(b.GetType());
+                                    Console.WriteLine(d.GetType());
+                                    Console.WriteLine(f.GetType());
+                                    Console.WriteLine(g.GetType());
+                                    Console.WriteLine(h.GetType());
+                                    Console.WriteLine(j.GetType());
+
+                                    Console.ReadKey();
+                                }
+                            }
+                        }
+
+                        3
+                        123.1
+                        321
+                        $
+                        $
+                        True
+                        System.Int32
+                        System.Double
+                        System.String
+                        System.String
+                        System.Char
+                        System.Boolean
+
+
+### User input 
+
+                            using System.Formats.Asn1;
+                            using System.Threading.Channels;
+
+                            namespace Projectpractice
+                            {
+                                internal class Program
+                                {
+                                
+                                    
+                                    static void Main(string[] args)
+                                    {
+                                        Console.WriteLine("What is your name ? ");
+                                        string name = Console.ReadLine();
+
+                                        Console.WriteLine("What is your age ? ");
+                                        int age = Convert.ToInt32(Console.ReadLine());
+
+                                        Console.WriteLine("Hello " + name);
+                                        Console.WriteLine("Your are " + age + " Years old ");
+
+                                        Console.ReadKey();
+                                    }
+                                }
+                            }
+
+                            What is your name ?
+                            anas
+                            What is your age ?
+                            21
+                            Hello anas
+                            Your are 21 Years old
+
+
+### Arithmatic Operators
+
+                                using System.Formats.Asn1;
+                                using System.Threading.Channels;
+
+                                namespace Projectpractice
+                                {
+                                    internal class Program
+                                    {
+                                    
+                                        
+                                        static void Main(string[] args)
+                                        {
+                                            int friends = 10;
+
+                                            //friends = friends + 2;
+                                            //friends += 2;
+                                            //friends++;
+
+                                            //friends = friends - 2;
+                                            //friends -= 2;
+                                            //friends--;
+
+                                            //friends = friends * 2;
+                                            //friends *= 2;
+
+                                            //friends = friends / 2;
+                                            //friends /= 2;
+
+                                            //int remainder = friends % 2;
+
+                                            Console.WriteLine(remainder);
+
+                                            Console.ReadKey();
+                                        }
+                                    }
+                                }
+
+### Math class
+
+                                    using System.Formats.Asn1;
+                                    using System.Threading.Channels;
+
+                                    namespace Projectpractice
+                                    {
+                                        internal class Program
+                                        {
+                                        
+                                            
+                                            static void Main(string[] args)
+                                            {
+                                                double x = 3.99;
+                                                double y = 5;
+
+                                                //double a = Math.Pow(x, 3);
+                                                //double b = Math.Sqrt(x);
+                                                //double c = Math.Round(x);
+                                                //double e = Math.Abs(x);
+                                                //double f = Math.Ceiling(x);
+                                                //double g = Math.Floor(x);
+                                                //double h = Math.Max(x, y);
+                                                //double i = Math.Min(x, y);
+                                                
+                                                Console.WriteLine(i);
+
+                                                Console.ReadKey();
+                                            }
+                                        }
+                                    }
+
+
+### (Mini Project) Random Guess Number 
+
+                                using System.Formats.Asn1;
+                                using System.Threading.Channels;
+
+                                namespace Projectpractice
+                                {
+                                    internal class Program
+                                    {
+                                    
+                                        
+                                        static void Main(string[] args)
+                                        {
+                                            Random random = new Random();
+
+                                            int num1 = random.Next(1, 7);
+                                            int num2= random.Next(1, 7);
+                                            int num3 = random.Next(1, 7);
+
+                                            //double num = random.Next(1, 7);
+
+
+                                            Console.WriteLine(num1);
+                                            Console.WriteLine(num2);
+                                            Console.WriteLine(num3);
+
+
+
+
+                                            Console.ReadKey();
+                                        }
+                                    }
+                                }
+
+
+
+### Hypotenouse Calculator Program
+
+                                    using System.Formats.Asn1;
+                                    using System.Threading.Channels;
+
+                                    namespace Projectpractice
+                                    {
+                                        internal class Program
+                                        {
+                                        
+                                            
+                                            static void Main(string[] args)
+                                            {
+                                                Console.WriteLine("Enter side A: ");
+                                                double sideA = Convert.ToDouble(Console.ReadLine());
+
+                                                Console.WriteLine("Enter side B: ");
+                                                double sideB = Convert.ToDouble(Console.ReadLine());
+
+                                                double c = Math.Sqrt((sideA * sideA) + (sideB * sideB));
+
+                                                Console.WriteLine("The length of the hypotenuse is: " + c);
+                                                
+
+                                                Console.ReadKey();
+                                            }
+                                        }
+                                    }
+
+                                    Enter side A:
+                                    3
+                                    Enter side B:
+                                    4
+                                    The length of the hypotenuse is: 5
+
+
+### String Methods
+
+                            using System.Formats.Asn1;
+                            using System.Threading.Channels;
+
+                            namespace Projectpractice
+                            {
+                                internal class Program
+                                {
+                                
+                                    
+                                    static void Main(string[] args)
+                                    {
+                                        string FullName = "Mohammed Anas";
+                                        string phonenumber = "123-456-78890";
+
+                                        //FullName = FullName.ToUpper();
+                                        //FullName = FullName.ToLower();
+                                        //phonenumber = phonenumber.Replace("-", "/");
+
+                                        //Console.WriteLine(phonenumber);
+                                        //string username = FullName.Insert(0, "Mr. ");
+                                        Console.WriteLine(FullName.Length);
+
+                                        Console.WriteLine(FullName);
+                                    
+                                        Console.ReadKey();
+                                    }
+                                }
+                            }
+
+
+### (if, else, else if) statements
+
+# EXAMPLE 1:
+                    using System.Formats.Asn1;
+                    using System.Threading.Channels;
+
+                    namespace Projectpractice
+                    {
+                        internal class Program
+                        {
+                        
+                            
+                            static void Main(string[] args)
+                            {
+                                // if statements = a basic form of dision making 
+
+                                Console.WriteLine("Enter your age: ");
+                                int age = Convert.ToInt32(Console.ReadLine());
+
+                                if (age > 100)
+                                {
+                                    Console.WriteLine("Yor are too old to sign up ");
+                                
+                                }
+                                else if (age >= 18)
+                                {
+                                    Console.WriteLine("Your are signed up! ");
+                                }
+                                else if (age < 0 )
+                                {
+                                    Console.WriteLine("You haven't been born yet");
+                                }
+                                else 
+                                {
+                                    Console.WriteLine("You must be 18+ to sign up!!!");
+                                }
+
+                                Console.ReadKey();
+                            }
+                        }
+                    }
+
+
+# EXAMPLE 2: 
+
+                    using System.Formats.Asn1;
+                    using System.Threading.Channels;
+
+                    namespace Projectpractice
+                    {
+                        internal class Program
+                        {
+                        
+                            
+                            static void Main(string[] args)
+                            {
+                                // if statements = a basic form of dision making 
+
+                                Console.WriteLine("Please enter your name: ");
+                                string name = Console.ReadLine();
+
+                                if (name == "")
+                                {
+                                    Console.WriteLine("You did not enter your name!!!");
+                                }
+                                else
+                                {
+                                    Console.WriteLine("Hello " + name);
+                                }
+
+                                Console.ReadKey();
+                            }
+                        }
+                    }
