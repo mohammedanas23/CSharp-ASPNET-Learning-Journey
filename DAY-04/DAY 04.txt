@@ -59,6 +59,9 @@
                         System.Char
                         System.Boolean
 
+# EXPLANATION : 
+                The methods in the code you see up there are known as type casting and they are very usefull and very important to learn in C# programming journey. 
+                The "double" has a value assigned to it but i want to convert it to an integer and then executte it and there is a function for that, "Convert.ToInt32", this function allows the user to change a "double" value or a "float" value into an integer and the same goes for the other functions as well. But you might ask that "Why is there a 32 in the int function ?", well there are 3 different types of type casting functions of int that is "int18", "int32", "int64". The "int18" can store 2 bits of data in its memory and the "int32" can store 4 bits of data in its memory but the "int32" can store 6 bits of data into its memory. This gives flexibility to the user as they can call out the functions as they feel the use for it. 
 
 ### User input 
 
@@ -93,6 +96,9 @@
                             21
                             Hello anas
                             Your are 21 Years old
+
+# EXPALNATION : 
+                In this program I made the code so that it can ask the user the its name and its age.                            
 
 
 ### Arithmatic Operators
@@ -133,6 +139,9 @@
                                     }
                                 }
 
+# EXPLANATION :
+                In this Program I have used different types of Arithmatic operators to get to know the functions more and use it in the future projects. They all work the same but have different styles of writing.
+
 ### Math class
 
                                     using System.Formats.Asn1;
@@ -165,6 +174,8 @@
                                         }
                                     }
 
+# EXPLANATION :
+                In this Program I have laid out some most commonly used Math classes that can be very use full but I am also learning them so!!!
 
 ### (Mini Project) Random Guess Number 
 
@@ -200,6 +211,9 @@
                                     }
                                 }
 
+# EXPLANATION : 
+                So here it is... My first small Project using the basics concepts of C#, I know that it is not that great of an achivement but I feel proud just taking a look at it.
+                So in here I made a random gussing number program while taking integers from (1 , 7), by now you might be gussing that what is the last function that i used in the program, that is a very useful function in C#. It can continously run the program until you press 'Enter' and also you wont be seeing the jumbled alphabets and numbers after every execution at the botton until you press the 'Enter'. 
 
 
 ### Hypotenouse Calculator Program
@@ -237,6 +251,8 @@
                                     4
                                     The length of the hypotenuse is: 5
 
+# EXPLANATION :
+                In this program i have taken out the hypotenuse of a triangle using the C# functions. First I asked the user to enter a side which is "sideA" and then i converted it to a double function using the convert method and the asked the user to enter the second side which is "sideB". Then I used the double to assign the "c" the role of multiplying the numbers given to take out the hypotenuse of a triangle by using the Math class square root method.
 
 ### String Methods
 
@@ -269,6 +285,8 @@
                                 }
                             }
 
+# EXPLANATION : 
+                In this program i am learning about the string methods, like how i can write a function to make my name in the upper case and also in lower case and how i can replace and insert anything using one command also get the length of the name. 
 
 ### (if, else, else if) statements
 
@@ -312,6 +330,8 @@
                         }
                     }
 
+# EXPLANATION : 
+                In this program i learned that how i can use the (if, else if, else) statements and how can i use them to my advantage by just jsutifying it with one command. And as you can see that if the person is 18+ he can sign up and the code will executed and everything else will drop, but if the person is 100+ years old the code will get executed and it drop the other statements. The same goes for all the other statements, if one statement gets fulfilled it will drop the other statements and give you the final result.
 
 # EXAMPLE 2: 
 
@@ -344,3 +364,7 @@
                             }
                         }
                     }
+
+# EXPLANATION : 
+                This is also another example code that i prepared that if the user doesn't give its name the program will execute the "if" statement and the "else" statement will get waved off.
+                
