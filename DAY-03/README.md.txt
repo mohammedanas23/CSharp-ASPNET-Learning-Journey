@@ -79,3 +79,45 @@ And the same goes for 'uint' function the max value that in can store in its mem
                         Min value of double is -1.7976931348623157E+308
                         Max value of decimal is 79228162514264337593543950335
                         Min value of decimal is -79228162514264337593543950335 
+
+# EXPLANATION: 
+                These operators 'float', 'double', 'decimal', are all known as fraction operators. They have there own function and there own unique ability. 
+                In the output below you can see that there are max and min values of float, double, and decimal operators, these numbers shows us that these
+                operators are able to store that much memory in there system and they can throw away the unused one.     
+
+-----------------------------------------------------------------------------------------------------
+
+                            // Logical 
+
+                            bool logical_name = true;
+                            bool logical_make = false;
+
+                            Console.WriteLine(logical_name);
+                            Console.WriteLine(logical_make);
+
+                            // Text 
+
+                            char Anas = 'A';
+                            char one = '1';
+                            char symbol = '@';
+
+                            Console.WriteLine(Anas);
+                            Console.WriteLine(one);
+                            Console.WriteLine(symbol);
+
+                            Console.ReadLine();
+
+
+
+
+                                    True
+                                    False
+                                    A
+                                    1
+                                    @
+                                                                
+                                                    
+# EXPLANATION: 
+                The logical operators also known as boolean operators can define a value or a variable if it is true or not. 
+                As this is just an example so i just took a variable jsut to assign the 'true' and the 'false' value.
+                
