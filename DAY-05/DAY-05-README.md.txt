@@ -466,6 +466,7 @@ Can be used to check if more than 1 condition is true/false
                 `ToUpper()` converts the player's input to uppercase. This allows the program to treat `y` and `Y` as the same response, making the game more user-friendly.
 
                 If the player chooses to continue, the outer loop starts another round. Otherwise, the game ends.
+ 
+THANKS 
 
-                ---
 
